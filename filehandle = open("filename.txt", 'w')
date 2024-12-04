@@ -1,2 +1,4 @@
-filehandle.write("text to write")
+question = input ("Choose answer: a,b,c,d")
+filehandle = open("testFile.txt",'w')
+filehandle.write(question)
 filehandle.close()
