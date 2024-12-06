@@ -1,4 +1,1 @@
-filehandle = open("testFile.txt",'w')
-filehandle.write(question)
-answer  = c
-filehandle.close()
+
