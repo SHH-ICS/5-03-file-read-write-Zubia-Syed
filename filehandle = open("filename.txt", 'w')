@@ -1,4 +1,4 @@
-question = input ("Choose answer: a,b,c,d")
 filehandle = open("testFile.txt",'w')
 filehandle.write(question)
+answer  = c
 filehandle.close()
