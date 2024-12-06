@@ -4,9 +4,10 @@
 
 filehandle = open("testFile.txt",'w')
 Question = input("What is your question?")
-filehandle.write(Question)
-answer = input ("Options:")
-filehandle.write(answer)
-answer = input("Correct answer?")
-filehandle.write(answer)
+filehandle.write(Question +"/n")
+ for i in range (4):
+answer = input ("Options:"  )
+filehandle.write(answer +"/n")
+answer = input("Correct answer?" )
+filehandle.write(answer +"/n" )
 filehandle.close()
