@@ -22,4 +22,4 @@ for q in questions:
     else:
         print("Wrong!\n")
 
-print(f"Score: {score}/{len(questions)}")
+print(score)
