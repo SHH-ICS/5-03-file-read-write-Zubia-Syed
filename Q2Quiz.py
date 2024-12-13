@@ -4,8 +4,6 @@ score = 0
 questions = [
     {"q": "Where were french fries originally made?", "c": {"a": "Belgium", "b": "France", "c": "America", "d": "Italy"}, "a": "a"}
 ]
-
-
 for question in questions:
     print(question["q"])
     
@@ -19,6 +17,4 @@ for question in questions:
         score += 1
     else:
         print("Wrong!\n")
-
-
 print("Your final score is: " + str(score))
